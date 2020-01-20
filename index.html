@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JS FOR ROOKIES</title>
+    
+
+      <style>
+      .complete{
+        border: 1px solid yellow ;
+      }
+      .hideIncomplete li:not(.complete){display:none}
+      .hideComplete li.complete {display:none}
+     
+     
+      </style>
+    </head>
+    <body>
+        <input type="text" id = "textInput"/> 
+        <button id="addTodoButton">click me</button>
+        <div id = "counter">
+          <span id="total">전체 : 0</span>
+          <span id="unfinished">미완료 : 0</span>
+          <span id="finished">완료 : 0</span>
+
+
+
+        </div>
+
+        <ul id="todoList"></ul>
+    <script src="./app.js"></script>
+
+    </body>
+</html>
